@@ -126,20 +126,14 @@ const educationInfo = {
       subHeader: "Affiliated to Dr. A.P.J Abdul Kalam University",
       subHeader2: "Bachelor in Computer Science and Information Technology",
       logo: require("./assets/images/Kietlogo.png"),
-      duration: "Grade: 8.0 | Expected 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
+      duration: "Grade: 8.0 ",
+      desc: " Expected 2025"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/Kietlogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Rani LaxmiBai Public School",
+      logo: require("./assets/images/LaxmiBai.jpg"),
+      subHeader: "Science(Physics, Chemistry, Mathematics, Computer Science)",
+      duration: "July 2018 - March 2020"
     },
   ],
 };
@@ -174,26 +168,28 @@ const workExperiences = {
       role: "Android Developer",
       company: "Vasukam",
       companylogo: require("./assets/images/vasukamLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "March 2023 - June 2023",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and Maintained high quality android application and integrating augmented reality features and firebase for real time synchronisation.",
+        "Collaborated closely with the co-founder, ensuring alignment of development efforts."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "AR/VR Coordinator",
+      company: "Mycin Technical Society",
+      companylogo: require("./assets/images/mycinLogo.png"),
+      date: "October 2022 - July 2023",
+      descBullets: [
+        "Served as the coordinator of AR/VR within a technical society, providing mentorship to a group of 20+ students.",
+        " Guided students to use  Unity Engine, C# scripting, Git Hub."
+      ] 
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mainter and Contributer",
+      company: "HacktoberFest 2023",
+      companylogo: require("./assets/images/hacktoberfest.png"),
+      date: "October 2023 –  October 2023",
+      desc: "Successfully Completed the HacktoberFest challange ans achieved max rank in it. Also, as a maintainer I successfully closed 20 PRs, diligently upholding code quality and project standards."
     }
   ]
 };
@@ -209,7 +205,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: " Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
