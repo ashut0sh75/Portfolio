@@ -1,0 +1,168 @@
+@import "../../_globalColor";
+
+/* Define a pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* React-headroom */
+.headroom-wrapper {
+  max-height: 70px;
+}
+
+
+/* Header styling */
+.header {
+  background-color: $lightBackground1;
+  max-width: 100%;
+  padding: 10px 15px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between;
+  list-style: none; /* Remove bullet dots */
+}
+
+.header.dark-menu {
+  background-color: $darkBackground !important;
+  color: $textColorDark;
+}
+
+.header:hover {
+  background-color: $headerHoverBG;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Add a subtle box-shadow on hover */
+  
+}
+
+.header .logo-name {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 0px; /* Adjust the padding here to increase or decrease the space */
+  letter-spacing: 1px;
+  color: $skillsColor;
+  font-size: 30px; /* Increase the font size */
+  opacity: 0; /* Start with opacity 0 for the fade-in effect */
+  animation: fadeIn 2s ease-out forwards; /* Animation definition */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.header:hover .logo-name {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Button styling and animation */
+.header li {
+  display: flex; /* Use flexbox to keep items on the same line */
+  align-items: center; /* Center items vertically */
+  transition: transform 0.3s ease;
+}
+
+.header li:hover {
+  transform: translateY(-10px);
+}
+
+.header li a {
+  display: block;
+  padding: 15px 10px;
+  color: $textColor;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header li a:hover {
+  color: $buttonColor;
+  background-color: transparent;
+  transform: scale(1.05);
+}
+
+/* Additional styling for ToggleSwitch */
+.toggle-switch {
+  margin-left: 5px; /* Add space between the last menu item and the ToggleSwitch */
+}
+
+.header .menu-btn:hover {
+  animation: pulse 0.5s infinite, rotate360 0.5s infinite;
+}
+
+@keyframes rotate360 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Toggle switch styling */
+.header .menu-btn {
+  display: none;
+  &:hover {
+    animation: pulse 0.5s infinite;
+  }
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 486px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent !important;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* Media queries */
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .menu {
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) and (min-width: 768px) {
+  .header {
+    font-size: 12px;
+  }
+}
+
+// Add any additional styles or media queries here
+// ...
