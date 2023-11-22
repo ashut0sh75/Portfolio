@@ -3,20 +3,20 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: rgb(30, 114, 239);
+$buttonColor: rgb(23, 109, 239);
 $buttonHover: rgb(110, 14, 194);
 $topButtonHover: rgb(110, 14, 194);
 
 // text colors light theme
-$titleColor: #000000;
+$titleColor: #0c0c0c;
 $textColor: #000000;
-$subTitle: #868e96;
+$subTitle: #43464a;
 $cardSubtitle: #666666;
 $talkCardSubTitle: #7f8287;
 $blogCardTitleColor: #262626;
 
 // text color dark theme
-$textColorDark: #ffffff;
+$textColorDark: #f7f1f1;
 
 // toggle switch colors
 $toggleCheck: #2196f3;
@@ -71,7 +71,7 @@ $contactDetailHoverTS: #b5b5b5;
 // misc backgrounds
 $progressBarSpanBG: #aaa5ff;
 $iconBackground: #333;
-$appHeaderBG: #282c34;
+$appHeaderBG: #dadde4;
 
 // misc colors
 $skillsColor: #645beb;
@@ -83,7 +83,7 @@ $linkedin: #0e76a8;
 $github: #333;
 $gitlab: #fca326;
 $google: #ea4335;
-$twitter: #010609;
+$twitter: #1e91d9;
 $medium: #000;
 $stackoverflow: #f48024;
 $instagram: #c13584;

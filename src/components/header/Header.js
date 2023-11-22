@@ -5,7 +5,6 @@ import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
-  greeting,
   workExperiences,
   skillsSection,
   openSource,
@@ -67,7 +66,7 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          <li className="toggle-switch">
+          <li className="toggle-switch"> 
             <a>
               <ToggleSwitch />
             </a>

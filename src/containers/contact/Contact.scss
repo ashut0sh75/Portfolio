@@ -20,7 +20,7 @@
 .contact-detail,
 .contact-detail-email {
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 400;
   color: $subTitle;
   text-decoration: none;
@@ -45,15 +45,19 @@
   margin-top: 4rem;
 }
 
-.contact-image-div > img {
-  max-width: 100%;
+#Profile-pic {
+  padding: 10px;
+  margin-left: 20%;
+  margin-top: 13%;
+  border-radius: 50%;
+  width: 90%;
   height: auto;
-  margin-left: 1.5rem;
-  margin-top: -4rem;
+  max-width: 70%; /* Adjusted max-width to a percentage of the container's width */
+  max-height: 70%; /* Adjusted max-height to a percentage of the container's height */
 }
 
 /* Media Query */
-@media (max-width: 1380px), (max-width: 768px) {
+@media (max-width:800px){
   .contact-title {
     font-size: 56px;
     font-weight: 400;
@@ -81,7 +85,5 @@
     font-size: 20px;
   }
 
-  .contact-image-div {
-    display: none;
-  }
+  
 }

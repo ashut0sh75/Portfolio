@@ -85,7 +85,7 @@
 .header li a {
   display: block;
   padding: 15px 10px;
-  color: $textColor;
+  color: rgb(23, 109, 239);
   text-decoration: none;
   transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
 }
@@ -141,7 +141,7 @@
 }
 
 /* Media queries */
-@media (min-width: 48em) {
+@media (min-width: -48em) {
   .header li {
     float: left;
   }
@@ -156,13 +156,12 @@
   .header .menu-icon {
     display: none;
   }
-}
 
-@media (max-width: 960px) and (min-width: 768px) {
-  .header {
-    font-size: 12px;
+}
+@media (max-width: 800px) {
+  .header li {
+    display: none;
   }
 }
-
 // Add any additional styles or media queries here
 // ...
