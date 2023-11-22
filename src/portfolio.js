@@ -206,12 +206,12 @@ const openSource = {
 
 const bigProjects = {
   title: " Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME PERSONAL AND PROJECTS WHICH I MADE FOR STARTUPS",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "CARTOON",
+      projectDesc: "The app is designed to convert  any image into its cartoon form using machine learning model.",
       footerLink: [
         {
           name: "Visit Website",
@@ -222,8 +222,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "AR Filter app",
+      projectDesc: "This app is a camera app which augment an AR filter on face using face recognition technology of unity and also has the ability to store the photos to upload it to firestore and retrieve it using link.",
       footerLink: [
         {
           name: "Visit Website",
