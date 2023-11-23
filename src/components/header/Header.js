@@ -15,8 +15,6 @@ import {
 
 // Header component
 
-// ... (previous imports)
-
 function Header() {
   const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
@@ -41,11 +39,6 @@ function Header() {
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
-            </li>
-          )}
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">Open Source</a>
             </li>
           )}
           {viewAchievement && (

@@ -39,7 +39,9 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/profile.php?id=100010964528173&mibextid=ZbWKwL",
    twitter: "https://x.com/ashut0sh_75?t=GVHPhm7kAA0IyYDSBrj1Uw&s=09",
   stackoverflow: "https://stackoverflow.com/users/20249367/ashutosh-gupta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  discord: "http://discordapp.com/users/ashutosh75#0118",
+  telegram: "http://t.me/Ashutosh_Gupta_75",
+  // Instagram, Twitter and Kaggle,  are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -209,25 +211,36 @@ const bigProjects = {
   subtitle: "SOME PERSONAL AND PROJECTS WHICH I MADE FOR STARTUPS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/CartoonIcon.png"),
       projectName: "CARTOON",
       projectDesc: "The app is designed to convert  any image into its cartoon form using machine learning model.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Project",
+          url: "https://github.com/ashut0sh75/Cartoon"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/ARimage.png"),
       projectName: "AR Filter app",
       projectDesc: "This app is a camera app which augment an AR filter on face using face recognition technology of unity and also has the ability to store the photos to upload it to firestore and retrieve it using link.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Project",
+          url: "https://github.com/ashut0sh75/AR-Filter-app"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Portfolio.jpeg"),
+      projectName: "Portfolio Website",
+      projectDesc: "This is the same website that you are seeing. I hope you like it.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/ashut0sh75/Portfolio"
         }
       ]
     }
@@ -245,50 +258,55 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Top Ranker on GeeksForGeeks",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Ranked 87 among 6650 registered candidates of my college in coding on GeeksForGeeks platform. ",
+      image: require("./assets/images/GFG.jpeg"),
+      imageAlt: "GFG Image",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Profile Link",
+          url: "https://auth.geeksforgeeks.org/user/genius_general"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Competitive Coding",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Solved over 612+ questions on Leetcode and GeeksForGeeks combined.",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "GFG and Leetcode",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "GFG Profile Link",
+          url: "https://auth.geeksforgeeks.org/user/genius_general"
+        },
+        {
+          name: "Leetcode Link",
+          url: "https://leetcode.com/ashutosh75/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Hackathon Finalist",
+      subtitle: "Hackathon Finalist in Endevour 2023 organised by E-cell of KIET Group of Institutions.",
+      image: require("./assets/images/HackathonImage.jpg"),
+      imageAlt: "Hackathon image",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "View Certificate", 
+        url: "https://drive.google.com/file/d/1TBLi-wUqnTHEGksH4YoXk-MN0l_Ar-za/view?usp=sharing"},
+      ]
+    },
+    {
+      title: "View on Articles",
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have crossed over 25000+ views and increasing, helping students, professional and enthusiats from all over the world.",
+      image: require("./assets/images/GFGarticles.jpeg"),
+      imageAlt:"Articles image",
+      footerLink: [
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+        name:"Thank you for everyone's support.",
+        url: ""
         }
       ]
     }
@@ -299,22 +317,22 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Articles",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.geeksforgeeks.org/c-nanosleep-function/",
+      title: "C nanosleep() Function",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "The article is about the nanosleep() function in C."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.geeksforgeeks.org/snake-game-using-tkinter-python/",
+      title: "Snake Game in Tkinter - Python.",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "The Legendary snake game recreated using tkinter library of python."
     }
   ],
   display: true // Set false to hide this section, defaults to true

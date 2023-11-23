@@ -68,6 +68,14 @@
   background-color: $instagram;
 }
 
+.discord i {
+  background-color: $discord;
+}
+
+.telegram i {
+  background-color: $telegram;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -78,7 +86,9 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
-.medium i:hover {
+.medium i:hover 
+.discord i :hover
+.telegram i :hover{
   background-color: $textColor;
 }
 

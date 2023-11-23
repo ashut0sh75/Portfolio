@@ -68,7 +68,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.instagram ? (
+{socialMediaLinks.instagram ? (
         <a
           href={socialMediaLinks.instagram}
           className="icon-button instagram"
@@ -104,6 +104,30 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+{socialMediaLinks.discord ? (
+        <a
+          href={socialMediaLinks.discord}
+          className="icon-button discord"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-discord"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+{socialMediaLinks.telegram ? (
+        <a
+          href={socialMediaLinks.telegram}
+          className="icon-button telegram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-telegram"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.stackoverflow ? (
         <a
           href={socialMediaLinks.stackoverflow}
@@ -128,5 +152,6 @@ export default function socialMedia() {
         </a>
       ) : null}
     </div>
+
   );
 }
