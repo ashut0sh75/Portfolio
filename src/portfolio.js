@@ -4,6 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import Button from "./components/button/Button";
 
 // Splash Screen
 
@@ -29,7 +30,6 @@ const greeting = {
     "https://drive.google.com/file/d/1LN2RLVFqKGCPYanmnQlnYRn_dMkh1bLa/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
-
 // Social Media Links
 
 const socialMediaLinks = {
@@ -274,7 +274,7 @@ const achievementSection = {
       title: "Competitive Coding",
       subtitle:
         "Solved over 612+ questions on Leetcode and GeeksForGeeks combined.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/coding.jpeg"),
       imageAlt: "GFG and Leetcode",
       footerLink: [
         {
@@ -311,9 +311,9 @@ const achievementSection = {
       ]
     }
   ],
+  
   display: true // Set false to hide this section, defaults to true
 };
-
 // Blogs Section
 
 const blogSection = {
@@ -334,9 +334,11 @@ const blogSection = {
       description:
         "The Legendary snake game recreated using tkinter library of python."
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Talks Sections
 
@@ -356,7 +358,6 @@ const talkSection = {
   ],
   display: false  // Set false to hide this section, defaults to true
 };
-
 // Podcast Section
 
 const podcastSection = {

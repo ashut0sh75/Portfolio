@@ -1,4 +1,4 @@
-/*Blog Cards Layout*/
+/* Blog Cards Layout */
 @import "../../_globalColor";
 
 .square {
@@ -25,24 +25,31 @@
 .blog-subtitle {
   text-transform: uppercase;
 }
+
 .blog-main-div > * {
   flex: 1;
   margin-bottom: 30px;
 }
-.blog-main-div {
-  display: flex;
-}
+
 .blog-image-div > img {
   max-width: 100%;
   height: auto;
 }
+
 .blog-text-div {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 32px;
 }
+
 .subTitle {
   color: $subTitle;
+}
+
+/* Button Styles */
+.articleButton {
+  text-align: center;
+  margin-top: 20px; /* Adjust this margin to control the space between cards and the button */
 }
 
 /* Media Query */
@@ -51,11 +58,13 @@
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .blog-header-text {
     font-size: 30px;
     text-align: center;
   }
+
   .blog-subtitle {
     font-size: 16px;
     line-height: normal;
