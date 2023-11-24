@@ -1,7 +1,7 @@
 import React from "react";
-import "./AchievementCard.scss";
+import "./certificateCard.scss";
 
-export default function AchievementCard({cardInfo, isDark}) {
+export default function CertificateCard({cardInfo, isDark}) {
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL for ${name} not found`);
@@ -12,29 +12,29 @@ export default function AchievementCard({cardInfo, isDark}) {
   }
 
   return (
-    <div className={isDark ? "dark-mode certificate-card" : "achievement-card"}>
-      <div className="achievement-image-div">
+    <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
+      <div className="certificate-image-div">
         <img
           src={cardInfo.image}
           alt={cardInfo.imageAlt || "Card Thumbnail"}
-          className="achievement-image"
+          className="card-image"
         ></img>
       </div>
-      <div className="achievement-detail-div">
-        <h5 className={isDark ? "dark-mode card-title" : "achievement-title"}>
+      <div className="certificate-detail-div">
+        <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
           {cardInfo.title}
         </h5>
-        <p className={isDark ? "dark-mode card-subtitle" : "achievement-subtitle"}>
+        <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
           {cardInfo.description}
         </p>
       </div>
-      <div className="achievement-card-footer">
+      <div className="certificate-card-footer">
         {cardInfo.footer.map((v, i) => {
           return (
             <span
               key={i}
               className={
-                isDark ? "dark-mode certificate-tag" : "achievement-tag"
+                isDark ? "dark-mode certificate-tag" : "certificate-tag"
               }
               onClick={() => openUrlInNewTab(v.url, v.name)}
             >

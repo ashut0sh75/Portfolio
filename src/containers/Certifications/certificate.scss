@@ -1,0 +1,107 @@
+/* Add the following styles to your existing certificate.scss file */
+
+@import "../../_globalColor";
+
+.certificate-main-div{
+    scroll-behavior: smooth;
+}
+.certificate-cards-div {
+  display: flex;
+  gap: 1rem;
+}
+
+.certificate-card {
+  flex: 0 0 auto; /* Allow cards to shrink or grow based on content */
+  margin-right: 20px; /* Adjust margin as needed */
+  background-color: $lightBackground2;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  }
+
+  .certificate-image-div {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card-image {
+      max-width: 100%;
+      height: auto;
+      width: 250px;
+    }
+  }
+
+  .certificate-detail-div {
+    text-align: center;
+
+    .card-title {
+      color: $titleColor;
+      font-size: 1.375rem;
+      line-height: 24px;
+      font-weight: 700;
+      margin: 15px 0 0 0;
+    }
+
+    .card-subtitle {
+      color: $cardSubtitle;
+      font-size: 1.063rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  .certificate-card-footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    span.certificate-tag {
+      background: $buttonColor;
+      color: $lightBackground3;
+      vertical-align: middle;
+      align-items: center;
+      border-radius: 4px;
+      display: inline-flex;
+      font-size: 0.75rem;
+      height: 2em;
+      justify-content: center;
+      white-space: nowrap;
+      line-height: 1.5;
+      margin: 0 0.5rem 0.5rem 0;
+      padding: 0 0.75em;
+      cursor: pointer;
+      transition: 0.2s ease-in;
+
+      &:hover {
+        background: $buttonHover;
+      }
+    }
+  }
+}
+
+/* Add media queries for responsiveness */
+@media (min-width: 500px) {
+  .certificate-card {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 700px) {
+  .certificate-card {
+    flex-basis: calc(33.3333% - 20px);
+  }
+}
+
+@media (min-width: 1100px) {
+  .certificate-card {
+    flex-basis: calc(25% - 40px);
+  }
+}

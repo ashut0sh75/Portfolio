@@ -4,7 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-import Button from "./components/button/Button";
 
 // Splash Screen
 
@@ -252,9 +251,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements  🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -311,8 +310,156 @@ const achievementSection = {
       ]
     }
   ],
-  
   display: true // Set false to hide this section, defaults to true
+};
+
+//certificate Section
+ 
+const certificateSection = {
+  title: emoji("Certifications  📜 "),
+  subtitle:
+    "Certificates I have earned !",
+
+  certificateCards: [
+    {
+      title: "Cert Prep: Unity Certified Associate Game Developer Animation and Cinematics",
+      subtitle:
+        "Issued on October 2023",
+      image: require("./assets/images/Linkdin.png"),
+      imageAlt: "Linkdin Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.linkedin.com/learning/certificates/01222dadf41d9b3240bf75664cc84c03695002978266a5b2057abce945db6a64?li_theme=dark"
+        },
+      ]
+    },
+    {
+      title: "Learning Git and GitHub",
+      subtitle:
+        "Issued on October 2023 ",
+      image: require("./assets/images/Linkdin.png"),
+      imageAlt: "Linkdin Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.linkedin.com/learning/certificates/ee4d9cbcd3fe2c8f03e05fe574b1741d6f231b16992a0c0a734e8353e6ee77f2?li_theme=dark"
+        },
+      ]
+    },
+    {
+      title: "Learning GitHub Actions",
+      subtitle:
+        "Issued on October 2023 ",
+      image: require("./assets/images/Linkdin.png"),
+      imageAlt: "Linkdin Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.linkedin.com/learning/certificates/c438fc813b2ee7dee9c8cb793f63518ff3663c4ea57b3c3f78b6d5a9d12f675b?li_theme=dark"
+        },
+      ]
+    },
+    {
+      title: "8 Git Commands You Should Know",
+      subtitle:
+        "Issued on August 2023",
+      image: require("./assets/images/Linkdin.png"),
+      imageAlt: "Linkdin Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.linkedin.com/learning/certificates/c1e48dc9a0ff067c0a6b14d2c70c9cc79a88c5395998588fbff48251b4f6bb88?li_theme=dark"
+        },
+      ]
+    },
+    {
+      title: "Programming Essential in Python",
+      subtitle:
+        "Issued on April 2023 ",
+      image: require("./assets/images/cisco.png"),
+      imageAlt: "Cisco Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: ""
+        },
+      ]
+    },
+    {
+      title: "Programming Essential in C",
+      subtitle:
+        "Issued on April 2023 ",
+      image: require("./assets/images/cisco.png"),
+      imageAlt: "Cisco Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: ""
+        },
+      ]
+    },
+    {
+      title: "Problem Solving",
+      subtitle:
+        "Issued on October 2022 ",
+      image: require("./assets/images/hackerrank.jpeg"),
+      imageAlt: "HackerRank Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.hackerrank.com/certificates/233e437cd985"
+        },
+      ]
+    },
+    {
+      title:" JAVA",
+      subtitle:
+        "Issued on September 2022 ",
+      image: require("./assets/images/hackerrank.jpeg"),
+      imageAlt: "HackerRank Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.hackerrank.com/certificates/316a77363e8f"
+        },
+      ]
+    },
+    {
+      title:" Certificate for Excercising Leadership: Foundational Principles",
+      subtitle:
+        "Issued on July 2022 ",
+      image: require("./assets/images/EDX.jpg"),
+      imageAlt: "EDX Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://courses.edx.org/certificates/577109dc9ddf4b3b872950ab97e69649"
+        },
+      ]
+    }
+  ],
+  display: true
+};
+
+// Talks Sections
+
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
+
+  talks: [
+    {
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
+ 
+  ],
+  display: false // Set false to hide this section, defaults to true
 };
 // Blogs Section
 
@@ -340,24 +487,6 @@ const blogSection = {
 };
 
 
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: false  // Set false to hide this section, defaults to true
-};
 // Podcast Section
 
 const podcastSection = {
@@ -400,8 +529,9 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
+  certificateSection,
   talkSection,
+  blogSection,
   podcastSection,
   contactInfo,
   twitterDetails,

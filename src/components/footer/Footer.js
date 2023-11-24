@@ -18,6 +18,11 @@ export default function Footer() {
             Ashutosh Gupta
           </a>
         </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          <h6>
+            Updated on November 24, 2023
+          </h6>
+        </p>
       </div>
     </Fade>
   );

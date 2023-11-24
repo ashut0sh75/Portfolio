@@ -1,23 +1,25 @@
 @import "../../_globalColor";
 
-.achievement-image {
+.card-image {
   max-width: 100%;
   height: auto;
   width: 250px;
+
+  
 }
-.achievement-title {
+.card-title {
   color: $titleColor;
   font-size: 1.375rem;
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
 }
-.achievement-subtitle {
+.card-subtitle {
   color: $cardSubtitle;
   font-size: 1.063rem;
   line-height: 1.5rem;
 }
-.achievement-card {
+.certificate-card {
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   padding: 1.5rem;
@@ -27,16 +29,16 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.achievement-detail-div {
+.certificate-detail-div {
   text-align: center;
 }
-.achievement-card:hover {
+.certificate-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
-.dark-mode.achievement-card:hover {
+.dark-mode.certificate-card:hover {
   box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
 }
-.achievement-image-div {
+.certificate-image-div {
   position: relative;
   height: 250px;
   overflow: hidden;
@@ -44,18 +46,21 @@
   justify-content: center;
   align-items: center;
 }
-.achievement-cards-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.certificate-cards-div {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  overflow-x: auto;
   gap: 1rem 1rem;
+  
 }
-.achievement-card-footer {
+.certificate-card-footer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
-.achievement-card-footer span.achievement-tag {
+.certificate-card-footer span.certificate-tag {
   background: $buttonColor;
   color: $lightBackground3;
   vertical-align: middle;
@@ -72,6 +77,6 @@
   cursor: pointer;
   transition: 0.2s ease-in;
 }
-span.achievement-tag:hover {
+span.certificate-tag:hover {
   background: $buttonHover;
 }
