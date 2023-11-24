@@ -55,7 +55,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.achievement-card-footer span.achievement-tag {
+.achievement-card-footer span.certificate-tag {
   background: $buttonColor;
   color: $lightBackground3;
   vertical-align: middle;
@@ -72,6 +72,6 @@
   cursor: pointer;
   transition: 0.2s ease-in;
 }
-span.achievement-tag:hover {
+span.certificate-tag:hover {
   background: $buttonHover;
 }
