@@ -429,7 +429,7 @@ const certificateSection = {
       title:" Certificate for Excercising Leadership: Foundational Principles",
       subtitle:
         "Issued on July 2022 ",
-      image: require("./assets/images/EDX.jpg"),
+      image: require("./assets/images/edX.jpeg"),
       imageAlt: "EDX Image",
       footerLink: [
         {
