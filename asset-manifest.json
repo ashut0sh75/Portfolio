@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c8fa86a5.css",
-    "main.js": "/Portfolio/static/js/main.ee19b069.js",
+    "main.css": "/Portfolio/static/css/main.2662516f.css",
+    "main.js": "/Portfolio/static/js/main.311afe69.js",
     "static/css/64.db6b0895.chunk.css": "/Portfolio/static/css/64.db6b0895.chunk.css",
     "static/js/64.f4960643.chunk.js": "/Portfolio/static/js/64.f4960643.chunk.js",
     "static/css/769.8c5ca1e1.chunk.css": "/Portfolio/static/css/769.8c5ca1e1.chunk.css",
@@ -26,16 +26,16 @@
     "static/media/GFG.jpeg": "/Portfolio/static/media/GFG.5a3b3e0c67eee0cee28e.jpeg",
     "static/media/skill.svg": "/Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/Portfolio/index.html",
-    "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.c8fa86a5.css.map": "/Portfolio/static/css/main.c8fa86a5.css.map",
-    "main.ee19b069.js.map": "/Portfolio/static/js/main.ee19b069.js.map",
+    "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.d3b7bba84f794c52282e.svg",
+    "main.2662516f.css.map": "/Portfolio/static/css/main.2662516f.css.map",
+    "main.311afe69.js.map": "/Portfolio/static/js/main.311afe69.js.map",
     "64.db6b0895.chunk.css.map": "/Portfolio/static/css/64.db6b0895.chunk.css.map",
     "64.f4960643.chunk.js.map": "/Portfolio/static/js/64.f4960643.chunk.js.map",
     "769.8c5ca1e1.chunk.css.map": "/Portfolio/static/css/769.8c5ca1e1.chunk.css.map",
     "769.863b84ad.chunk.js.map": "/Portfolio/static/js/769.863b84ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8fa86a5.css",
-    "static/js/main.ee19b069.js"
+    "static/css/main.2662516f.css",
+    "static/js/main.311afe69.js"
   ]
 }
