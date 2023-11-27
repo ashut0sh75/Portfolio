@@ -88,7 +88,7 @@
 }
 
 /* Add media queries for responsiveness */
-@media (min-width: 500px) {
+@media (min-width: 300px) {
   .certificate-card {
     flex-basis: calc(50% - 20px);
   }
