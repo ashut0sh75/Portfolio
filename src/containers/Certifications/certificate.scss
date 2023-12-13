@@ -7,6 +7,7 @@
 }
 .certificate-cards-div {
   display: flex;
+  overflow: hidden;
   gap: 1rem;
 }
 
@@ -27,7 +28,6 @@
   .certificate-image-div {
     position: relative;
     height: 200px;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
