@@ -29,7 +29,7 @@ function Header() {
   return (
     <Headroom>
       <header className={`header ${isDark ? "dark-menu" : ""}`}>
-        <a href="/" className="logo">
+        <a href="#" className="logo">
           <span className={`logo-name ${isDark ? "dark-text" : ""}`}>{"<Ashutosh Gupta />"}</span>
         </a>
         <ul className={`menu ${isDark ? "dark-menu" : ""}`}>

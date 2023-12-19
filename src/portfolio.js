@@ -49,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Tech Alchemist: From Android to AR, Always Excited for the Uncharted.",
+  subTitle: "Tech Alchemist: From Android to AR, Always Excited for the Uncharted. I am a versatile developer who is comfortable working with any technology stack. I have the ability to adapt to new situations and learn new technologies quickly.",
+  
   skills: [
     emoji(
       "⚡Mobile App Architect: Crafting Scalable and User-Centric Android Experiences"
@@ -57,7 +58,8 @@ const skillsSection = {
     emoji("⚡Immersive AR Developer: Expert in Creating Captivating AR Experiences for Mobile"),
     emoji(
       "⚡Innovative Android Engineer: Bringing Creative Solutions to the Forefront of Mobile Development"
-    )
+    ),
+  
   ],
 
   /* Make Sure to include correct base64 encoding to view your icon
@@ -259,7 +261,7 @@ const achievementSection = {
     {
       title: "Top Ranker on GeeksForGeeks",
       subtitle:
-        "Ranked 87 among 6650 registered candidates of my college in coding on GeeksForGeeks platform. ",
+        "Ranked 71 among 6718 registered candidates of my college in coding on GeeksForGeeks platform. ",
       image: require("./assets/images/GFG.jpeg"),
       imageAlt: "GFG Image",
       footerLink: [
@@ -272,7 +274,7 @@ const achievementSection = {
     {
       title: "Competitive Coding",
       subtitle:
-        "Solved over 612+ questions on Leetcode and GeeksForGeeks combined.",
+        "Solved over 665+ questions on Leetcode and GeeksForGeeks combined.",
       image: require("./assets/images/coding.jpeg"),
       imageAlt: "GFG and Leetcode",
       footerLink: [
@@ -299,7 +301,7 @@ const achievementSection = {
     },
     {
       title: "View on Articles",
-      subtitle: " Wrote 11 articles on GeeksForGeeks and they have crossed over 25000+ views and increasing, helping students, professional and enthusiats from all over the world.",
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 30000 views and increasing, helping students, professional and enthusiats from all over the world.",
       image: require("./assets/images/GFGarticles.jpeg"),
       imageAlt:"Articles image",
       footerLink: [
