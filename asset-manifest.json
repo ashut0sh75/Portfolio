@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8be6ca27.css",
-    "main.js": "/Portfolio/static/js/main.35ea7fe4.js",
+    "main.js": "/Portfolio/static/js/main.516a2316.js",
     "static/css/64.db6b0895.chunk.css": "/Portfolio/static/css/64.db6b0895.chunk.css",
     "static/js/64.f4960643.chunk.js": "/Portfolio/static/js/64.f4960643.chunk.js",
     "static/css/769.8c5ca1e1.chunk.css": "/Portfolio/static/css/769.8c5ca1e1.chunk.css",
@@ -10,9 +10,10 @@
     "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Kietlogo.png": "/Portfolio/static/media/Kietlogo.57585efece4f1ee375b1.png",
     "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/googledeveloper.png": "/Portfolio/static/media/googledeveloper.b2f747ce5dcaa0f1bcb5.png",
     "static/media/CartoonIcon.png": "/Portfolio/static/media/CartoonIcon.826da109133c60e7bde4.png",
     "static/media/ARimage.png": "/Portfolio/static/media/ARimage.3dbc6e01fe65daace8db.png",
-    "static/media/GFGarticles.jpeg": "/Portfolio/static/media/GFGarticles.b4c054f317781ef8c90c.jpeg",
+    "static/media/gfgarticles.jpeg": "/Portfolio/static/media/gfgarticles.693bd5c33143af67639c.jpeg",
     "static/media/coding.jpeg": "/Portfolio/static/media/coding.eae048f5b285ed5c524b.jpeg",
     "static/media/manOnTable.svg": "/Portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/vasukamLogo.png": "/Portfolio/static/media/vasukamLogo.266813104de6de07abe7.png",
@@ -28,7 +29,7 @@
     "index.html": "/Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.d3b7bba84f794c52282e.svg",
     "main.8be6ca27.css.map": "/Portfolio/static/css/main.8be6ca27.css.map",
-    "main.35ea7fe4.js.map": "/Portfolio/static/js/main.35ea7fe4.js.map",
+    "main.516a2316.js.map": "/Portfolio/static/js/main.516a2316.js.map",
     "64.db6b0895.chunk.css.map": "/Portfolio/static/css/64.db6b0895.chunk.css.map",
     "64.f4960643.chunk.js.map": "/Portfolio/static/js/64.f4960643.chunk.js.map",
     "769.8c5ca1e1.chunk.css.map": "/Portfolio/static/css/769.8c5ca1e1.chunk.css.map",
@@ -36,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.8be6ca27.css",
-    "static/js/main.35ea7fe4.js"
+    "static/js/main.516a2316.js"
   ]
 }
