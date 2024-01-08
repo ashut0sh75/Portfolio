@@ -20,7 +20,7 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           <h6>
-            Updated on December 19, 2023
+            Updated on January 08, 2024
           </h6>
         </p>
       </div>

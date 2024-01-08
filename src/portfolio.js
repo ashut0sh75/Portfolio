@@ -26,7 +26,7 @@ const greeting = {
     "Aspiring android developer with a strong interest in mobile application and a passion for creative problem - solving. I honed my skills in Android Studio, JAVA,and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/13wb_2PxiXZ9VRAkQaj2LGW30LJrZYvu4/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1hpMbl5Su1q8SRK_bco0sJQnNZGfgh_tt/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
@@ -261,7 +261,7 @@ const achievementSection = {
     {
       title: "Top Ranker on GeeksForGeeks",
       subtitle:
-        "Ranked 71 among 6718 registered candidates of my college in coding on GeeksForGeeks platform. ",
+        "Ranked 61 among 6782 registered candidates of my college in coding on GeeksForGeeks platform. ",
       image: require("./assets/images/GFG.jpeg"),
       imageAlt: "GFG Image",
       footerLink: [
@@ -272,9 +272,23 @@ const achievementSection = {
       ]
     },
     {
+      title: "Google Developer Profile",
+      subtitle:
+        "Achieved over 10+ badges and attended 10+ codelabs on my profile.",
+      image: require("./assets/images/googledeveloper.png"),
+      imageAlt: "Google Developer Profile",
+      footerLink: [
+        {
+          name: "Google Developer Profile",
+          url: "https://g.dev/ashutoshgupta75"
+        },
+      ]
+    },
+
+    {
       title: "Competitive Coding",
       subtitle:
-        "Solved over 665+ questions on Leetcode and GeeksForGeeks combined.",
+        "Solved over 730+ questions on Leetcode and GeeksForGeeks combined.",
       image: require("./assets/images/coding.jpeg"),
       imageAlt: "GFG and Leetcode",
       footerLink: [
@@ -301,8 +315,8 @@ const achievementSection = {
     },
     {
       title: "View on Articles",
-      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 30000 views and increasing, helping students, professional and enthusiats from all over the world.",
-      image: require("./assets/images/GFGarticles.jpeg"),
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 33000 views and increasing, helping students, professional and enthusiats from all over the world.",
+      image: require("./assets/images/gfgarticles.jpeg"),
       imageAlt:"Articles image",
       footerLink: [
         {
