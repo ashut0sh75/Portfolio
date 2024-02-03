@@ -44,10 +44,10 @@
   text-align: center;
 }
 .project-card-light:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  box-shadow: yellow 0px 20px 30px -10px;
 }
 .project-card-dark:hover {
-  box-shadow: 0px 20px 30px -10px $darkBoxShadow;
+  box-shadow: 0px 20px 30px -10px yellow;
 }
 .project-image {
   position: relative;
