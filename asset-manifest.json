@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8be6ca27.css",
-    "main.js": "/Portfolio/static/js/main.516a2316.js",
+    "main.js": "/Portfolio/static/js/main.4207cb71.js",
     "static/css/64.db6b0895.chunk.css": "/Portfolio/static/css/64.db6b0895.chunk.css",
     "static/js/64.f4960643.chunk.js": "/Portfolio/static/js/64.f4960643.chunk.js",
     "static/css/769.8c5ca1e1.chunk.css": "/Portfolio/static/css/769.8c5ca1e1.chunk.css",
@@ -19,8 +19,8 @@
     "static/media/vasukamLogo.png": "/Portfolio/static/media/vasukamLogo.266813104de6de07abe7.png",
     "static/media/LaxmiBai.jpg": "/Portfolio/static/media/LaxmiBai.fba12af13ac8079d2181.jpg",
     "static/media/HackathonImage.jpg": "/Portfolio/static/media/HackathonImage.d3f1656b15fc0934fc2b.jpg",
-    "static/media/mycinLogo.png": "/Portfolio/static/media/mycinLogo.663645a2c683ac356b06.png",
     "static/media/Portfolio.jpeg": "/Portfolio/static/media/Portfolio.cf71459932a28651c915.jpeg",
+    "static/media/Helpy_moto.jpeg": "/Portfolio/static/media/Helpy_moto.e4aba43d9d211b0c8833.jpeg",
     "static/media/Linkdin.png": "/Portfolio/static/media/Linkdin.22eebdcb96802b0dc40e.png",
     "static/media/MyVR.jpg": "/Portfolio/static/media/MyVR.b37f065a926fe4611f69.jpg",
     "static/media/developerActivity.svg": "/Portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -29,7 +29,7 @@
     "index.html": "/Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.d3b7bba84f794c52282e.svg",
     "main.8be6ca27.css.map": "/Portfolio/static/css/main.8be6ca27.css.map",
-    "main.516a2316.js.map": "/Portfolio/static/js/main.516a2316.js.map",
+    "main.4207cb71.js.map": "/Portfolio/static/js/main.4207cb71.js.map",
     "64.db6b0895.chunk.css.map": "/Portfolio/static/css/64.db6b0895.chunk.css.map",
     "64.f4960643.chunk.js.map": "/Portfolio/static/js/64.f4960643.chunk.js.map",
     "769.8c5ca1e1.chunk.css.map": "/Portfolio/static/css/769.8c5ca1e1.chunk.css.map",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.8be6ca27.css",
-    "static/js/main.516a2316.js"
+    "static/js/main.4207cb71.js"
   ]
 }
