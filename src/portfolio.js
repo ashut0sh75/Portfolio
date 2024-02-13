@@ -26,7 +26,7 @@ const greeting = {
     "Aspiring android developer with a strong interest in mobile application and a passion for creative problem - solving. I honed my skills in Android Studio, JAVA,and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hpMbl5Su1q8SRK_bco0sJQnNZGfgh_tt/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/16t9-WSaKzmxpPGJfq6_-czMur_czcKvt/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
@@ -181,8 +181,8 @@ const workExperiences = {
       companylogo: require("./assets/images/Helpy_moto.jpeg"),
       date: "January 2024 - Present",
       descBullets: [
-        "Designed many wireframes into high quality codes for frontend and implemented various types of services in backend using various apis.",
-,        "Collaborated closely with team of 6, ensuring alignment of development efforts."
+        " Contributed to the development and enhancement of the company's mobile application.",
+        "Integrated on REST API's and mostly backend of application."
        
       ]
     },
@@ -280,7 +280,7 @@ const achievementSection = {
     {
       title: "Top Ranker on GeeksForGeeks",
       subtitle:
-        "Ranked 61 among 6782 registered candidates of my college in coding on GeeksForGeeks platform. ",
+        "Ranked 44 among 6892 registered candidates of my college in coding on GeeksForGeeks platform. ",
       image: require("./assets/images/GFG.jpeg"),
       imageAlt: "GFG Image",
       footerLink: [
@@ -307,7 +307,7 @@ const achievementSection = {
     {
       title: "Competitive Coding",
       subtitle:
-        "Solved over 730+ questions on Leetcode and GeeksForGeeks combined.",
+        "Solved over 820+ questions on Leetcode and GeeksForGeeks combined.",
       image: require("./assets/images/coding.jpeg"),
       imageAlt: "GFG and Leetcode",
       footerLink: [
@@ -334,7 +334,7 @@ const achievementSection = {
     },
     {
       title: "View on Articles",
-      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 33000 views and increasing, helping students, professional and enthusiats from all over the world.",
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 38000 views and increasing, helping students, professional and enthusiats from all over the world.",
       image: require("./assets/images/gfgarticles.jpeg"),
       imageAlt:"Articles image",
       footerLink: [
