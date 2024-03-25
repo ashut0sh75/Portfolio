@@ -280,7 +280,7 @@ const achievementSection = {
     {
       title: "Top Ranker on GeeksForGeeks",
       subtitle:
-        "Ranked 44 among 6892 registered candidates of my college in coding on GeeksForGeeks platform. ",
+        "Ranked 43 among 7027 registered candidates of my college in coding on GeeksForGeeks platform. ",
       image: require("./assets/images/GFG.jpeg"),
       imageAlt: "GFG Image",
       footerLink: [
@@ -307,7 +307,7 @@ const achievementSection = {
     {
       title: "Competitive Coding",
       subtitle:
-        "Solved over 820+ questions on Leetcode and GeeksForGeeks combined.",
+        "Solved over 882+ questions on Leetcode and GeeksForGeeks combined.",
       image: require("./assets/images/coding.jpeg"),
       imageAlt: "GFG and Leetcode",
       footerLink: [
@@ -334,7 +334,7 @@ const achievementSection = {
     },
     {
       title: "View on Articles",
-      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 38000 views and increasing, helping students, professional and enthusiats from all over the world.",
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 44000 views and increasing, helping students, professional and enthusiats from all over the world.",
       image: require("./assets/images/gfgarticles.jpeg"),
       imageAlt:"Articles image",
       footerLink: [
@@ -485,12 +485,12 @@ const talkSection = {
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
 
-  talks: [
+  talks: [// fill according to yourself
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: "/"
     }
  
   ],
@@ -515,7 +515,7 @@ const blogSection = {
       title: "Snake Game in Tkinter - Python.",
       description:
         "The Legendary snake game recreated using tkinter library of python."
-    }
+    },
     
   ],
   display: true // Set false to hide this section, defaults to true

@@ -99,15 +99,15 @@ export default function Blogs() {
                     />
                   );
                 })}
-            <div className="articleButton">
-              {
-                <Button
-                  text="Read all my articles"
-                  newTab={true}
-                  href={"https://auth.geeksforgeeks.org/user/genius_general/articles"} // Replace with the actual link
-                />
-              }
-            </div>
+          </div>
+          <div className="articleButton">
+            {
+              <Button
+                text="Read all my articles"
+                newTab={true}
+                href={"https://auth.geeksforgeeks.org/user/genius_general/articles"} // Replace with the actual link
+              />
+            }
           </div>
         </div>
       </div>
