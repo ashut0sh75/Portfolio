@@ -238,6 +238,176 @@ const bigProjects = {
       footerLink: [
         {
           name: "Play Store Link",
+          url: "https://play.google.com/store/apps/details?id=com.opxica.johar"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/CartoonIcon.png"),
+      projectName: "CARTOON",
+      projectDesc: "The app is designed to convert  any image into its cartoon form using machine learning model.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/ashut0sh75/Cartoon"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/ARimage.png"),
+      projectName: "AR Filter app",
+      projectDesc: "This app is a camera app which augment an AR filter on face using face recognition technology of unity and also has the ability to store the photos to upload it to firestore and retrieve it using link.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/ashut0sh75/AR-Filter-app"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Portfolio.jpeg"),
+      projectName: "Portfolio Website",
+      projectDesc: "This is the same website that you are seeing. I hope you like it.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/ashut0sh75/Portfolio"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Achievement Section
+// Include certificates, talks etc
+
+const achievementSection = {
+  title: emoji("Achievements  🏆 "),
+  subtitle:
+    "Achievements and Some Cool Stuff that I have done !",
+
+  achievementsCards: [
+    {
+      title: "Top Ranker on GeeksForGeeks",
+      subtitle:
+        "Ranked 43 among 7027 registered candidates of my college in coding on GeeksForGeeks platform. ",
+      image: require("./assets/images/GFG.jpeg"),
+      imageAlt: "GFG Image",
+      footerLink: [
+        {
+          name: "Profile Link",
+          url: "https://auth.geeksforgeeks.org/user/genius_general"
+        },
+      ]
+    },
+    {
+      title: "Google Developer Profile",
+      subtitle:
+        "Achieved over 10+ badges and attended 10+ codelabs on my profile.",
+      image: require("./assets/images/googledeveloper.png"),
+      imageAlt: "Google Developer Profile",
+      footerLink: [
+        {
+          name: "Google Developer Profile",
+          url: "https://g.dev/ashutoshgupta75"
+        },
+      ]
+    },
+
+    {
+      title: "Competitive Coding",
+      subtitle:
+        "Solved over 882+ questions on Leetcode and GeeksForGeeks combined.",
+      image: require("./assets/images/coding.jpeg"),
+      imageAlt: "GFG and Leetcode",
+      footerLink: [
+        {
+          name: "GFG Profile Link",
+          url: "https://auth.geeksforgeeks.org/user/genius_general"
+        },
+        {
+          name: "Leetcode Link",
+          url: "https://leetcode.com/ashutosh75/"
+        }
+      ]
+    },
+
+    {
+      title: "Hackathon Finalist",
+      subtitle: "Hackathon Finalist in Endevour 2023 organised by E-cell of KIET Group of Institutions.",
+      image: require("./assets/images/HackathonImage.jpg"),
+      imageAlt: "Hackathon image",
+      footerLink: [
+        {name: "View Certificate", 
+        url: "https://drive.google.com/file/d/1TBLi-wUqnTHEGksH4YoXk-MN0l_Ar-za/view?usp=sharing"},
+      ]
+    },
+    {
+      title: "View on Articles",
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 44000 views and increasing, helping students, professional and enthusiats from all over the world.",
+      image: require("./assets/images/gfgarticles.jpeg"),
+      imageAlt:"Articles image",
+      footerLink: [
+        {
+        name:"Thank you for everyone's support.",
+        url: ""
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+//certificate Section
+ 
+const certificateSection = {
+  title: emoji("Certifications  📜 "),
+  subtitle:
+    "Certificates I have earned !",
+
+  certificateCards: [
+    {
+      title: "Cert Prep: Unity Certified Associate Game Developer Animation and Cinematics",
+      subtitle:
+        "Issued on October 2023",
+      image: require("./assets/images/Linkdin.png"),
+      imageAlt: "Linkdin Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.linkedin.com/learning/certificates/01222dadf41d9b3240bf75664cc84c03695002978266a5b2057abce945db6a64?li_theme=dark"
+        },
+      ]
+    },
+    {
+      title: "Learning Git and GitHub",
+      subtitle:
+        "Issued on October 2023 ",
+      image: require("./assets/images/Linkdin.png"),
+      imageAlt: "Linkdin Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.linkedin.com/learning/certificates/ee4d9cbcd3fe2c8f03e05fe574b1741d6f231b16992a0c0a734e8353e6ee77f2?li_theme=dark"
+        },
+      ]
+    },
+    {
+      title: "Learning GitHub Actions",
+      subtitle:
+        "Issued on October 2023 ",
+      image: require("./assets/images/Linkdin.png"),
+      imageAlt: "Linkdin Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.linkedin.com/learning/certificates/c438fc813b2ee7dee9c8cb793f63518ff3663c4ea57b3c3f78b6d5a9d12f675b?li_theme=dark"
+        },
+      ]
+    },
     {
       title: "8 Git Commands You Should Know",
       subtitle:
