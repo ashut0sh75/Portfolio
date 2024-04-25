@@ -23,7 +23,7 @@ const greeting = {
   username: "Ashutosh Gupta",
   title: "Hi all, I'm Ashutosh",
   subTitle: emoji(
-    "Aspiring android developer with a strong interest in mobile application and a passion for creative problem - solving. I honed my skills in Android Studio, JAVA,and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
+    "Aspiring android developer with a strong interest in mobile application and a passion for creative problem - solving. I honed my skills in Android Studio, Flutter, JAVA, Kotlin, Dart, and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
   ),
   resumeLink:
     "https://drive.google.com/file/d/16t9-WSaKzmxpPGJfq6_-czMur_czcKvt/view?usp=sharing", // Set to empty to hide the button
