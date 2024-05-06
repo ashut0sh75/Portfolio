@@ -26,7 +26,7 @@ const greeting = {
     "Aspiring android developer with a strong interest in mobile application and a passion for creative problem - solving. I honed my skills in Android Studio, Flutter, JAVA, Kotlin, Dart, and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/16t9-WSaKzmxpPGJfq6_-czMur_czcKvt/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1erK5OIA5uOi4vuGVrFrbw-M4gaiTGpQW/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
