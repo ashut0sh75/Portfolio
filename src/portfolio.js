@@ -26,7 +26,7 @@ const greeting = {
     "Aspiring android developer with a strong interest in mobile application and a passion for creative problem - solving. I honed my skills in Android Studio, Flutter, JAVA, Kotlin, Dart, and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1erK5OIA5uOi4vuGVrFrbw-M4gaiTGpQW/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1OS-CPqFCTLsgDBe5JXoiSbpxmvXID_cR/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
@@ -293,7 +293,7 @@ const achievementSection = {
     {
       title: "Top Ranker on GeeksForGeeks",
       subtitle:
-        "Ranked 43 among 7027 registered candidates of my college in coding on GeeksForGeeks platform. ",
+        "Ranked 43 among 7195 registered candidates of my college in coding on GeeksForGeeks platform. ",
       image: require("./assets/images/GFG.jpeg"),
       imageAlt: "GFG Image",
       footerLink: [
@@ -320,7 +320,7 @@ const achievementSection = {
     {
       title: "Competitive Coding",
       subtitle:
-        "Solved over 882+ questions on Leetcode and GeeksForGeeks combined.",
+        "Solved over 950+ questions on Leetcode and GeeksForGeeks combined.",
       image: require("./assets/images/coding.jpeg"),
       imageAlt: "GFG and Leetcode",
       footerLink: [
@@ -347,7 +347,7 @@ const achievementSection = {
     },
     {
       title: "View on Articles",
-      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 44000 views and increasing, helping students, professional and enthusiats from all over the world.",
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 54000 views and increasing, helping students, professional and enthusiats from all over the world.",
       image: require("./assets/images/gfgarticles.jpeg"),
       imageAlt:"Articles image",
       footerLink: [
@@ -369,6 +369,19 @@ const certificateSection = {
     "Certificates I have earned !",
 
   certificateCards: [
+    {
+      title: "AWS Academy Cloud Foundations",
+      subtitle:
+        "Issued on October 2024",
+      image: require("./assets/images/aws-logo.jpg"),
+      imageAlt: "AWS Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.credly.com/badges/72598218-5d8e-47a9-9a09-98d9b341a545/print"
+        },
+      ]
+    },
     {
       title: "Cert Prep: Unity Certified Associate Game Developer Animation and Cinematics",
       subtitle:
