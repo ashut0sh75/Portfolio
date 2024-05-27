@@ -179,7 +179,7 @@ const workExperiences = {
       role: "Flutter Developer",
       company: "HELPY_MOTO",
       companylogo: require("./assets/images/Helpy_moto.jpeg"),
-      date: "January 2024 - Present",
+      date: "January 2024 - April 2025",
       descBullets: [
         " Contributed to the development and enhancement of the company's mobile application.",
         "Integrated on REST API's and mostly backend of application."
