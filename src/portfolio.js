@@ -372,7 +372,7 @@ const certificateSection = {
     {
       title: "AWS Academy Cloud Foundations",
       subtitle:
-        "Issued on October 2024",
+        "Issued on May 2024",
       image: require("./assets/images/aws-logo.jpg"),
       imageAlt: "AWS Image",
       footerLink: [
