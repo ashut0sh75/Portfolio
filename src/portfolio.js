@@ -23,10 +23,10 @@ const greeting = {
   username: "Ashutosh Gupta",
   title: "Hi all, I'm Ashutosh",
   subTitle: emoji(
-    "Aspiring android developer with a strong interest in mobile application and a passion for creative problem - solving. I honed my skills in Android Studio, Flutter, JAVA, Kotlin, Dart, and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
+    "Aspiring Software developer with a past experience in android development and augmented reality and a passion for creative problem - solving. I honed my skills in Android Studio, Flutter, JAVA, Kotlin, Dart, and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1OS-CPqFCTLsgDBe5JXoiSbpxmvXID_cR/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/117CdRHwNmx6mG9DCwHZhUbTePFIm6Ggw/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
@@ -138,7 +138,7 @@ const educationInfo = {
       subHeader2: "Bachelor in Computer Science and Information Technology",
       logo: require("./assets/images/Kietlogo.png"),
       duration: "Grade: 8.0 ",
-      desc: " Expected 2025"
+      desc: " 2025"
     },
     {
       schoolName: "Rani LaxmiBai Public School",
@@ -291,9 +291,22 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Amazon ML School 2024",
+      subtitle:
+        "Got Selected in ML School 2024 organised by Amazon.",
+      image: require("./assets/images/AmazonML.webp"),
+      imageAlt: "Amazon ML School 2024 Image",
+      footerLink: [
+        {
+        name:"Amazon ML School 2024",
+        url: ""
+        }
+      ]
+    },
+    {
       title: "Top Ranker on GeeksForGeeks",
       subtitle:
-        "Ranked 43 among 7195 registered candidates of my college in coding on GeeksForGeeks platform. ",
+        "Ranked 42 among 7639 registered candidates of my college in coding on GeeksForGeeks platform. ",
       image: require("./assets/images/GFG.jpeg"),
       imageAlt: "GFG Image",
       footerLink: [
@@ -320,7 +333,7 @@ const achievementSection = {
     {
       title: "Competitive Coding",
       subtitle:
-        "Solved over 950+ questions on Leetcode and GeeksForGeeks combined.",
+        "Solved over 1000+ questions on Leetcode and GeeksForGeeks combined.",
       image: require("./assets/images/coding.jpeg"),
       imageAlt: "GFG and Leetcode",
       footerLink: [
@@ -347,7 +360,7 @@ const achievementSection = {
     },
     {
       title: "View on Articles",
-      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 54000 views and increasing, helping students, professional and enthusiats from all over the world.",
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 61000 views and increasing, helping students, professional and enthusiats from all over the world.",
       image: require("./assets/images/gfgarticles.jpeg"),
       imageAlt:"Articles image",
       footerLink: [
