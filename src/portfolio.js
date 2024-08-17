@@ -26,7 +26,7 @@ const greeting = {
     "Aspiring Software developer with a past experience in android development and augmented reality and a passion for creative problem - solving. I honed my skills in Android Studio, Flutter, JAVA, Kotlin, Dart, and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/117CdRHwNmx6mG9DCwHZhUbTePFIm6Ggw/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1juJH7LSFtC1_4ZdT1RXCeGCM35Cs1q_S/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
@@ -180,6 +180,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Development Intern",
+      company: "Rapipay Fintech Pvt. Ltd.",
+      companylogo: require("./assets/images/Rapipay.png"),
+      date: "August 2024 – Present",
+      descBullets: [
+        " Created an Knowledge Based Platform for the company to share knowledge and experience with others..",
+        "Developed  REST API's using JAVA and SpringBoot for backend operations."
+       
+      ]
+    },
+    {
       role: "Flutter Developer",
       company: "HELPY_MOTO",
       companylogo: require("./assets/images/Helpy_moto.jpeg"),
@@ -310,7 +321,7 @@ const achievementSection = {
     {
       title: "Top Ranker on GeeksForGeeks",
       subtitle:
-        "Ranked 42 among 7639 registered candidates of my college in coding on GeeksForGeeks platform. ",
+        "Ranked 42 among 7717 registered candidates of my college in coding on GeeksForGeeks platform. ",
       image: require("./assets/images/GFG.jpeg"),
       imageAlt: "GFG Image",
       footerLink: [
@@ -364,7 +375,7 @@ const achievementSection = {
     },
     {
       title: "View on Articles",
-      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 61000 views and increasing, helping students, professional and enthusiats from all over the world.",
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 64000 views and increasing, helping students, professional and enthusiats from all over the world.",
       image: require("./assets/images/gfgarticles.jpeg"),
       imageAlt:"Articles image",
       footerLink: [
