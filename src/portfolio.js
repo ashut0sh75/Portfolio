@@ -23,10 +23,10 @@ const greeting = {
   username: "Ashutosh Gupta",
   title: "Hi all, I'm Ashutosh",
   subTitle: emoji(
-    "Aspiring Software developer with a past experience in android development and augmented reality and a passion for creative problem - solving. I honed my skills in Android Studio, Flutter, JAVA, Kotlin, Dart, and  AR(Augmented Reality). Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
+    "Aspiring Software developer with a past experience in android development, augmented reality, API Development and Databases and a passion for creative problem - solving. I honed my skills in Android Studio, Flutter, JAVA, Kotlin, Dart, and  AR(Augmented Reality), SpringBoot, SQL, MongoDB. Seeking opportunities to gain hands-on experience and apply my knowledge in a professional setting."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1juJH7LSFtC1_4ZdT1RXCeGCM35Cs1q_S/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1HEAq7GGXYC88dfZPkAGVTl1PfoZuIroS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Tech Alchemist: From Android to AR, Always Excited for the Uncharted. I am a versatile developer who is comfortable working with any technology stack. I have the ability to adapt to new situations and learn new technologies quickly.",
+  subTitle: "Tech Alchemist: From Game Development to Augmented Reality, from Building APIs to building Android Applications , Always Excited for the Uncharted. I am a versatile developer who is comfortable working with any technology stack. I have the ability to adapt to new situations and learn new technologies quickly.",
   
   skills: [
     emoji(
@@ -58,6 +58,9 @@ const skillsSection = {
     emoji("⚡Immersive AR Developer: Expert in Creating Captivating AR Experiences for Mobile"),
     emoji(
       "⚡Innovative Android Engineer: Bringing Creative Solutions to the Forefront of Mobile Development"
+    ),
+    emoji(
+      "⚡Experience API Developer: Building Robust and Scalable RESTful APIs"
     ),
   
   ],
@@ -193,7 +196,8 @@ const workExperiences = {
       companylogo: require("./assets/images/Rapipay.png"),
       date: "August 2024 – Present",
       descBullets: [
-        " Created an Knowledge Based Platform for the company to share knowledge and experience with others..",
+        " Created an Knowledge Based Platform for the company to share knowledge and experience with others.",
+        "Created a automated  Fund Credit transfer system for the company.",
         "Developed  REST API's using JAVA and SpringBoot for backend operations."
        
       ]
@@ -327,6 +331,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Knight Badge on Leetcode",
+      subtitle:
+        "Achieved Knight Badge on Leetcode with the highest rating of 1911.",
+      image: require("./assets/images/knightBadge.png"),
+      imageAlt: "Knight Badge",
+      footerLink: [
+        {
+        name:"Leetcode Profile",
+       url: "https://leetcode.com/ashutosh75/"
+        }
+      ]
+    },
+    {
       title: "Top Ranker on GeeksForGeeks",
       subtitle:
         "Ranked 42 among 7717 registered candidates of my college in coding on GeeksForGeeks platform. ",
@@ -383,8 +400,8 @@ const achievementSection = {
     },
     {
       title: "View on Articles",
-      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 64000 views and increasing, helping students, professional and enthusiats from all over the world.",
-      image: require("./assets/images/gfgarticles.jpeg"),
+      subtitle: " Wrote 11 articles on GeeksForGeeks and they have nearly 77000 views and increasing, helping students, professional and enthusiats from all over the world.",
+      image: require("./assets/images/gfgarticles.png"),
       imageAlt:"Articles image",
       footerLink: [
         {
