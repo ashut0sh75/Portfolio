@@ -264,8 +264,8 @@ const bigProjects = {
       projectDesc: "The app is developed as a freelance project for a client. This app is a e - commerce app for a local business.",
       footerLink: [
         {
-          name: "Play Store Link",
-          url: "https://play.google.com/store/apps/details?id=com.opxica.johar"
+          name: "Project is not public",
+          url: "#"
         }
         //  you can add extra buttons here.
       ]
