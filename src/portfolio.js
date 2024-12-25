@@ -422,6 +422,20 @@ const certificateSection = {
     "Certificates I have earned !",
 
   certificateCards: [
+
+    {
+      title: "AWS Academy Cloud Architecting",
+      subtitle:
+        "Issued on December 2024",
+      image: require("./assets/images/aws-logo.jpg"),
+      imageAlt: "AWS Image",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.credly.com/badges/17d7fc3d-71c4-4c7d-ab56-ef650a9d410c/print"
+        },
+      ]
+    },
     {
       title: "AWS Academy Cloud Foundations",
       subtitle:
