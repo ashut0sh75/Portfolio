@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.3f22c3e6.css",
-    "main.js": "/Portfolio/static/js/main.c3a6b5cc.js",
+    "main.js": "/Portfolio/static/js/main.8a7ac44d.js",
     "static/css/64.db6b0895.chunk.css": "/Portfolio/static/css/64.db6b0895.chunk.css",
     "static/js/64.855bea58.chunk.js": "/Portfolio/static/js/64.855bea58.chunk.js",
     "static/css/769.8c5ca1e1.chunk.css": "/Portfolio/static/css/769.8c5ca1e1.chunk.css",
     "static/js/769.863b84ad.chunk.js": "/Portfolio/static/js/769.863b84ad.chunk.js",
+    "static/media/gfgarticles.png": "/Portfolio/static/media/gfgarticles.9f8c413a64b93543976d.png",
     "static/media/hacktoberfest.png": "/Portfolio/static/media/hacktoberfest.53e636e151fed877f85b.png",
-    "static/media/gfgarticles.png": "/Portfolio/static/media/gfgarticles.8b00c03746ad07ac86aa.png",
     "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/knightBadge.png": "/Portfolio/static/media/knightBadge.38c0388d239946ac5438.png",
     "static/media/Kietlogo.png": "/Portfolio/static/media/Kietlogo.57585efece4f1ee375b1.png",
@@ -33,7 +33,7 @@
     "index.html": "/Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.d3b7bba84f794c52282e.svg",
     "main.3f22c3e6.css.map": "/Portfolio/static/css/main.3f22c3e6.css.map",
-    "main.c3a6b5cc.js.map": "/Portfolio/static/js/main.c3a6b5cc.js.map",
+    "main.8a7ac44d.js.map": "/Portfolio/static/js/main.8a7ac44d.js.map",
     "64.db6b0895.chunk.css.map": "/Portfolio/static/css/64.db6b0895.chunk.css.map",
     "64.855bea58.chunk.js.map": "/Portfolio/static/js/64.855bea58.chunk.js.map",
     "769.8c5ca1e1.chunk.css.map": "/Portfolio/static/css/769.8c5ca1e1.chunk.css.map",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.3f22c3e6.css",
-    "static/js/main.c3a6b5cc.js"
+    "static/js/main.8a7ac44d.js"
   ]
 }
