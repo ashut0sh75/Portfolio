@@ -24,7 +24,11 @@ export default function AchievementCard({cardInfo, isDark}) {
         <h5 className={isDark ? "dark-mode card-title" : "achievement-title"}>
           {cardInfo.title}
         </h5>
-        <p className={isDark ? "dark-mode card-subtitle" : "achievement-subtitle"}>
+        <p
+          className={
+            isDark ? "dark-mode card-subtitle" : "achievement-subtitle"
+          }
+        >
           {cardInfo.description}
         </p>
       </div>
@@ -33,9 +37,7 @@ export default function AchievementCard({cardInfo, isDark}) {
           return (
             <span
               key={i}
-              className={
-                 "dark-mode certificate-tag" 
-              }
+              className={"dark-mode certificate-tag"}
               onClick={() => openUrlInNewTab(v.url, v.name)}
             >
               {v.name}
