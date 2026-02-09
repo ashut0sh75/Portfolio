@@ -3,5 +3,13 @@
 .dark-mode {
   background-color: $darkBackground;
   color: white;
-  transition: "0.1s";
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure content appears above background */
+.dark-mode > * {
+  position: relative;
+  z-index: 1;
 }

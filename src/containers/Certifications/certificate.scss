@@ -2,6 +2,13 @@
 
 @import "../../_globalColor";
 
+/* Main container alignment */
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
 .certificate-main-div{
     scroll-behavior: smooth;
 }

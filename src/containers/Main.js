@@ -17,6 +17,7 @@ import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
+import AmbientSVG from "../components/ambientSVG/AmbientSVG";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
@@ -46,6 +47,7 @@ const Main = () => {
 
   return (
     <div className={isDark ? "dark-mode" : null}>
+      <AmbientSVG />
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         {isShowingSplashAnimation && splashScreen.enabled ? (
           <SplashScreen />

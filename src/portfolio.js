@@ -19,16 +19,23 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
-const greeting = {
+ const greeting = {
   username: "Ashutosh Gupta",
   title: "Hi all, I'm Ashutosh",
-  subTitle: emoji(
-    "Aspiring Software Engineer currently working in Rapipay Fintech Pvt. Ltd. as a Software Engineer Intern. I am a passionate developer workign on real world problems and building products for the company mostly working on database and backend development. Besides this I have worked on various projects in the field of Augmented Reality, Game Development, Android Development and Web Development. I am a quick learner and always excited to learn new technologies and work on new projects. I am also a competitive programmer and have a good knowledge of Data Structures and Algorithms. I am looking for a full time job opportunity in the field of Software Development."
-  ),
+  subTitle: [
+    "Software Engineer Intern at Rapipay Fintech Pvt. Ltd., working on real-world, production-grade systems",
+    "Focused on backend development and database engineering, building scalable and maintainable solutions",
+    "Experience across Android Development, Augmented Reality, Game Development, and Web Development",
+    "Competitive programmer with strong knowledge of Data Structures and Algorithms",
+    "Passionate about learning new technologies and actively seeking a full-time software development role"
+  ],
   resumeLink:
-    "https://drive.google.com/file/d/1HEAq7GGXYC88dfZPkAGVTl1PfoZuIroS/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/13Y6lm6h7ykcMtrWBUqJ6PWH-q5XPbAxp/view?usp=sharing",
+  displayGreeting: true
 };
+
+
+
 // Social Media Links
 
 const socialMediaLinks = {
@@ -49,24 +56,25 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I Do",
   subTitle:
-    "Tech Alchemist: From Game Development to Augmented Reality, from Building APIs to building Android Applications , Always Excited for the Uncharted. I am a versatile developer who is comfortable working with any technology stack. I have the ability to adapt to new situations and learn new technologies quickly.",
+    "Backend-focused Software Engineer with hands-on experience in building real-world fintech systems. I enjoy designing scalable APIs, working with databases, and solving complex problems. Alongside backend development, I have explored Android development, Augmented Reality, and game development, which helps me bring a versatile and product-oriented mindset to everything I build.",
 
   skills: [
     emoji(
-      "⚡Mobile App Architect: Crafting Scalable and User-Centric Android Experiences"
+      "⚡Backend & API Development: Designing and building scalable, secure, and high-performance RESTful APIs"
     ),
     emoji(
-      "⚡Immersive AR Developer: Expert in Creating Captivating AR Experiences for Mobile"
+      "⚡Database Engineering: Working with relational and NoSQL databases, optimizing queries, and handling real-world data"
     ),
     emoji(
-      "⚡Innovative Android Engineer: Bringing Creative Solutions to the Forefront of Mobile Development"
+      "⚡Fintech Systems Development: Contributing to production-grade payment and transaction workflows"
     ),
     emoji(
-      "⚡Experience API Developer: Building Robust and Scalable RESTful APIs"
+      "⚡Android & Emerging Tech Explorer: Experience with Android development, Augmented Reality, and game development"
     )
   ],
+
 
   /* Make Sure to include correct base64 encoding to view your icon
 Find some icon with base64 encodeing at https://icons8.com/icons */
@@ -204,15 +212,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Development Intern",
+      role: "Software Engineer I",
       company: "Rapipay Fintech Pvt. Ltd.",
       companylogo: require("./assets/images/Rapipay.png"),
       date: "August 2024 – Present",
       descBullets: [
+        "Led the automation of Reconliation of bank transactions and transactions of our payment gateway, resulting in a 50% reduction in manual effort and improved accuracy.",
         "Worked on the development of backend services and APIs for the company's kyc and onboarding process.",
         "Created a automated  Fund Credit transfer system for the company.",
-        " Created an Knowledge Based Platform for the company to share knowledge and experience with others.",
-        "Developed  REST API's using JAVA, SpringBoot and Node for backend operations.",
       ]
     },
     {
@@ -417,7 +424,7 @@ const achievementSection = {
     {
       title: "View on Articles",
       subtitle:
-        " Wrote 8+ articles on GeeksForGeeks and they have nearly 91000 ++  views and increasing, helping students, professional and enthusiats from all over the world.",
+        " Wrote 8+ articles on GeeksForGeeks and they have nearly 110000 ++  views and increasing, helping students, professional and enthusiats from all over the world.",
       image: require("./assets/images/gfgarticles.png"),
       imageAlt: "Articles image",
       footerLink: [

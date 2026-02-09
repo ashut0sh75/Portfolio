@@ -1,24 +1,9 @@
 @import "../../_globalColor";
 
-.main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
-}
 .greet-main {
   width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-}
-
-.greeting-main {
-  display: flex;
-}
-
-.subTitle {
-  color: $subTitle !important;
+  margin: 2rem auto;
 }
 
 .greeting-main {
@@ -27,11 +12,10 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
 }
-.button-greeting-div {
-  display: flex;
-  margin-top: 20px;
+
+.subTitle {
+  color: $subTitle !important;
 }
 
 .greeting-text {
@@ -41,79 +25,85 @@
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 1.6;
+  margin-top: 1.5rem;
 }
 
-.greeting-image-div > img {
+/* ✅ Bullet styling */
+.greeting-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.greeting-bullets li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 26px;
+}
+
+.greeting-bullets li::before {
+  content: "⚡";
+  position: absolute;
+  left: 0;
+  color: $textColor;
+}
+
+/* Buttons */
+.button-greeting-div {
+  display: flex;
+  margin-top: 25px;
+  gap: 15px;
+}
+
+/* Image */
+.greeting-image-div img {
   max-width: 100%;
   height: auto;
 }
 
+/* Wave animation */
 .wave-emoji {
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: wave;
+  animation: wave 1.8s infinite;
   display: inline-block;
   transform-origin: 70% 70%;
 }
 
 @keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(12deg);
-  }
-  30% {
-    transform: rotate(-10deg);
-  }
-  40% {
-    transform: rotate(9deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-10deg); }
+  20% { transform: rotate(12deg); }
+  30% { transform: rotate(-10deg); }
+  40% { transform: rotate(9deg); }
+  50% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
-  .greeting-text {
-    font-size: 50px;
-  }
-  .greeting-text-p {
-    font-size: 20px;
-  }
-}
+/* Responsive */
 @media (max-width: 768px) {
-  .button-greeting-div {
-    justify-content: space-around;
-  }
-  .greeting-text {
-    font-size: 30px;
-    text-align: center;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
-    text-align: center;
-  }
   .greeting-main {
     display: block;
+    text-align: center;
   }
-  .greeting-image-div {
-    height: 256px;
-  }
-}
 
-@media (max-width: 320px) {
-  .main {
-    width: auto;
+  .greeting-text {
+    font-size: 32px;
+  }
+
+  .greeting-text-p {
+    font-size: 16px;
+  }
+
+  .greeting-bullets li {
+    padding-left: 0;
+  }
+
+  .greeting-bullets li::before {
+    display: none;
+  }
+
+  .button-greeting-div {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }

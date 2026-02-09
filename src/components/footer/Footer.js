@@ -20,7 +20,11 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           <h6>
-            Updated on May 01, 2025
+            Updated on - {new Date().toLocaleDateString("en-US",{
+              month: "long",
+              day: "2-digit",
+              year: "numeric",
+            })}
           </h6>
         </p>
       </div>
