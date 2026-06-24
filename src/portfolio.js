@@ -30,7 +30,7 @@ const illustration = {
     "Passionate about learning new technologies and actively seeking a full-time software development role"
   ],
   resumeLink:
-    "https://drive.google.com/file/d/13Y6lm6h7ykcMtrWBUqJ6PWH-q5XPbAxp/view?usp=sharing",
+    "https://drive.google.com/file/d/1CQPHkOYkP9msYFhVpUCBzY9K2De1t3mR/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -219,7 +219,7 @@ const workExperiences = {
       descBullets: [
         "Led the automation of Reconliation of bank transactions and transactions of our payment gateway, resulting in a 50% reduction in manual effort and improved accuracy.",
         "Worked on the development of backend services and APIs for the company's kyc and onboarding process.",
-        "Created a automated  Fund Credit transfer system for the company.",
+        "Spearheaded the development of a Parquet-based reporting system, reducing data storage needs by 83.7% and accelerating report delivery by 30%.",
       ]
     },
     {
