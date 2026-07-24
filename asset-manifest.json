@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2c6b8811.css",
-    "main.js": "/Portfolio/static/js/main.0c4eb824.js",
+    "main.css": "/Portfolio/static/css/main.b4a76c15.css",
+    "main.js": "/Portfolio/static/js/main.ec6e37f0.js",
     "static/css/64.a37a56cf.chunk.css": "/Portfolio/static/css/64.a37a56cf.chunk.css",
     "static/js/64.5ff6baac.chunk.js": "/Portfolio/static/js/64.5ff6baac.chunk.js",
     "static/css/769.00c53ac0.chunk.css": "/Portfolio/static/css/769.00c53ac0.chunk.css",
@@ -26,21 +26,22 @@
     "static/media/Helpy_moto.jpeg": "/Portfolio/static/media/Helpy_moto.e4aba43d9d211b0c8833.jpeg",
     "static/media/Linkdin.png": "/Portfolio/static/media/Linkdin.22eebdcb96802b0dc40e.png",
     "static/media/developerActivity.svg": "/Portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/programmer.svg": "/Portfolio/static/media/programmer.becd1465cc28d37ba166c0a5ec233467.svg",
     "static/media/GFG.jpeg": "/Portfolio/static/media/GFG.5a3b3e0c67eee0cee28e.jpeg",
     "static/media/AmazonML.webp": "/Portfolio/static/media/AmazonML.739ebefa38389d942a9e.webp",
     "static/media/aws-logo.jpg": "/Portfolio/static/media/aws-logo.96a197e9429addafedcf.jpg",
     "static/media/skill.svg": "/Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.d3b7bba84f794c52282e.svg",
-    "main.2c6b8811.css.map": "/Portfolio/static/css/main.2c6b8811.css.map",
-    "main.0c4eb824.js.map": "/Portfolio/static/js/main.0c4eb824.js.map",
+    "main.b4a76c15.css.map": "/Portfolio/static/css/main.b4a76c15.css.map",
+    "main.ec6e37f0.js.map": "/Portfolio/static/js/main.ec6e37f0.js.map",
     "64.a37a56cf.chunk.css.map": "/Portfolio/static/css/64.a37a56cf.chunk.css.map",
     "64.5ff6baac.chunk.js.map": "/Portfolio/static/js/64.5ff6baac.chunk.js.map",
     "769.00c53ac0.chunk.css.map": "/Portfolio/static/css/769.00c53ac0.chunk.css.map",
     "769.09193893.chunk.js.map": "/Portfolio/static/js/769.09193893.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c6b8811.css",
-    "static/js/main.0c4eb824.js"
+    "static/css/main.b4a76c15.css",
+    "static/js/main.ec6e37f0.js"
   ]
 }
