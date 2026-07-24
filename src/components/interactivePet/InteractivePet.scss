@@ -1,0 +1,141 @@
+.pet-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.pet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 66px;
+  height: 66px;
+  pointer-events: auto;
+  cursor: pointer;
+  will-change: transform;
+}
+
+.pet-body {
+  position: relative;
+  width: 66px;
+  height: 66px;
+}
+
+.pet-visual {
+  animation: petBob 2.4s ease-in-out infinite;
+  filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.35))
+    drop-shadow(0 0 10px rgba(99, 102, 241, 0.35));
+  transition: filter 0.3s ease;
+}
+
+.pet:hover .pet-visual {
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.4))
+    drop-shadow(0 0 16px rgba(34, 211, 238, 0.7));
+}
+
+.pet-shadow {
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  width: 34px;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  filter: blur(3px);
+  animation: petShadow 2.4s ease-in-out infinite;
+}
+
+/* Speech bubble */
+.pet-bubble {
+  position: absolute;
+  bottom: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background: rgba(15, 23, 42, 0.95);
+  color: #e5e7eb;
+  border: 1px solid rgba(99, 102, 241, 0.5);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  padding: 6px 10px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  animation: bubblePop 0.25s ease;
+  pointer-events: none;
+}
+
+.pet-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background: rgba(15, 23, 42, 0.95);
+  border-right: 1px solid rgba(99, 102, 241, 0.5);
+  border-bottom: 1px solid rgba(99, 102, 241, 0.5);
+}
+
+/* Hop animation on click */
+.pet-hop .pet-visual {
+  animation: petHop 0.5s ease;
+}
+
+@keyframes petBob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes petShadow {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translateX(-50%) scale(0.8);
+    opacity: 0.2;
+  }
+}
+
+@keyframes petHop {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-22px);
+  }
+  70% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bubblePop {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(6px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+}
+
+/* On small screens the pet can crowd content — keep it, but tuck it lower */
+@media (max-width: 600px) {
+  .pet-bubble {
+    font-size: 0.65rem;
+  }
+}

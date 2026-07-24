@@ -21,13 +21,21 @@ const illustration = {
 
  const greeting = {
   username: "Ashutosh Gupta",
-  title: "Hi all, I'm Ashutosh",
+  title: "Hi, I'm Ashutosh",
+  // Rotating one-liners that type themselves out in the hero section
+  roles: [
+    "Software Engineer @ Rapipay Fintech",
+    "Backend & Distributed Systems",
+    "Java · Spring Boot · Node.js",
+    "LeetCode Knight (1964)",
+    "I build things that scale"
+  ],
   subTitle: [
-    "Software Engineer Intern at Rapipay Fintech Pvt. Ltd., working on real-world, production-grade systems",
-    "Focused on backend development and database engineering, building scalable and maintainable solutions",
-    "Experience across Android Development, Augmented Reality, Game Development, and Web Development",
-    "Competitive programmer with strong knowledge of Data Structures and Algorithms",
-    "Passionate about learning new technologies and actively seeking a full-time software development role"
+    "Software Engineer at Rapipay Fintech, shipping production-grade backend systems used by 50K+ agents",
+    "I design scalable REST APIs and data pipelines with Java, Spring Boot, Node.js, Redis & MongoDB",
+    "Automated reconciliation & reporting workflows processing 1M+ transactions a day",
+    "Competitive programmer — LeetCode Knight (top 3.03%) and 110K+ reads on my technical writing",
+    "Curious by default, pragmatic by habit — always shipping, always learning"
   ],
   resumeLink:
     "https://drive.google.com/file/d/1CQPHkOYkP9msYFhVpUCBzY9K2De1t3mR/view?usp=sharing",
@@ -35,6 +43,21 @@ const illustration = {
 };
 
 
+
+// Impact / Stats Section — animated count-up numbers shown under the hero
+const statsSection = {
+  display: true,
+  title: "By the numbers",
+  subtitle: "A quick snapshot of the impact I've had so far",
+  stats: [
+    { value: 50, suffix: "K+", label: "Agents served by systems I built", icon: "👥" },
+    { value: 80, suffix: "%", label: "Efficiency boost from automation", icon: "⚡" },
+    { value: 1, suffix: "M+", label: "Transactions processed daily", icon: "🔁" },
+    { value: 110, suffix: "K+", label: "Reads on my technical articles", icon: "✍️" },
+    { value: 1964, suffix: "", label: "LeetCode Knight rating", icon: "♞" },
+    { value: 3.03, suffix: "%", label: "Global LeetCode percentile (top)", icon: "🏆" }
+  ]
+};
 
 // Social Media Links
 
@@ -173,8 +196,8 @@ const educationInfo = {
       subHeader: "Affiliated to Dr. A.P.J Abdul Kalam University",
       subHeader2: "Bachelor in Computer Science and Information Technology",
       logo: require("./assets/images/Kietlogo.png"),
-      duration: "Grade: 8.0 ",
-      desc: " 2025"
+      duration: "Graduated July 2025 · CGPA 8.04 / 10",
+      desc: "Focused on Data Structures, Algorithms, DBMS, Operating Systems and Computer Networks."
     },
     {
       schoolName: "Rani LaxmiBai Public School",
@@ -217,29 +240,29 @@ const workExperiences = {
       companylogo: require("./assets/images/Rapipay.png"),
       date: "August 2024 – Present",
       descBullets: [
-        "Led the automation of Reconliation of bank transactions and transactions of our payment gateway, resulting in a 50% reduction in manual effort and improved accuracy.",
-        "Worked on the development of backend services and APIs for the company's kyc and onboarding process.",
-        "Spearheaded the development of a Parquet-based reporting system, reducing data storage needs by 83.7% and accelerating report delivery by 30%.",
+        "Architected and delivered SAP B1 API integrations that automate invoicing and reconciliation for 50K+ agents, boosting operational efficiency by 80%.",
+        "Partnered with cross-functional teams on the Merchant & Agent Onboarding platform, resolving 15+ production-critical issues and improving reliability.",
+        "Spearheaded a Parquet-based reporting system that cut data storage by 83.67% and accelerated report delivery by 30%."
       ]
     },
     {
-      role: "Flutter Developer",
-      company: "HELPY_MOTO",
+      role: "Flutter Developer Intern",
+      company: "Helpy Moto",
       companylogo: require("./assets/images/Helpy_moto.jpeg"),
       date: "January 2024 - April 2024",
       descBullets: [
-        " Contributed to the development and enhancement of the company's mobile application.",
-        "Integrated on REST API's and mostly backend of application."
+        "Built frontend components and integrated backend REST APIs, delivering 100% of the targeted user workflows.",
+        "Worked end-to-end across the mobile app — from UI to the services powering it."
       ]
     },
     {
-      role: "Android Developer",
-      company: "Vasukam",
+      role: "Android Development Intern",
+      company: "Vasukam Pvt. Ltd.",
       companylogo: require("./assets/images/vasukamLogo.png"),
       date: "March 2023 - June 2023",
       descBullets: [
-        "Designed and Maintained high quality android application and integrating augmented reality features and firebase for real time synchronisation.",
-        "Collaborated closely with the co-founder, ensuring alignment of development efforts."
+        "Built backend services for a 3D camera-filters platform, integrating Augmented Reality features behind a friendly UI.",
+        "Used Firebase for real-time sync and collaborated closely with the co-founder to align on product direction."
       ]
     },
     {
@@ -273,9 +296,40 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: " Projects",
-  subtitle: "SOME PERSONAL AND PROJECTS WHICH I MADE FOR STARTUPS",
+  title: "Projects",
+  subtitle:
+    "FROM PRODUCTION FINTECH SYSTEMS TO WEEKEND EXPERIMENTS — THINGS I'VE BUILT AND SHIPPED",
   projects: [
+    {
+      image: require("./assets/images/developerActivity.svg").default,
+      projectName: "Reconciliation Automation Engine",
+      projectDesc:
+        "Automated sales-invoice and bank-transaction reconciliation with Java, Spring Boot, Redis, MongoDB & Node.js. Processes 1M+ transactions daily and generates 100+ reports, cutting manual effort by 80%.",
+      footerLink: [
+        { name: "Java · Spring Boot · Redis", url: "" },
+        { name: "MongoDB · Node.js", url: "" }
+      ]
+    },
+    {
+      image: require("./assets/images/skill.svg").default,
+      projectName: "Cyber Crime Management System",
+      projectDesc:
+        "A grievance & chargeback tracking platform for fraud-management teams. Spring Boot + MongoDB + Redis backend with automated alerting via Microsoft Workflows — improving operational efficiency by 50%.",
+      footerLink: [
+        { name: "Spring Boot · SQL", url: "" },
+        { name: "MongoDB · Redis", url: "" }
+      ]
+    },
+    {
+      image: require("./assets/images/programmer.svg").default,
+      projectName: "AI-Powered Telegram Bot",
+      projectDesc:
+        "An IT-support bot that resolves queries automatically using ChatGPT, Claude and GitHub Copilot. Built in Python and deployed on Render, it reduced manual intervention by 50%.",
+      footerLink: [
+        { name: "Python · Render", url: "" },
+        { name: "LLM APIs", url: "" }
+      ]
+    },
     {
       image: require("./assets/images/joharBasketIcon.png"),
       projectName: "Johar Basket",
@@ -353,7 +407,7 @@ const achievementSection = {
     {
       title: "Knight Badge on Leetcode",
       subtitle:
-        "Achieved Knight Badge on Leetcode with the highest rating of 1911.",
+        "Earned the LeetCode Knight badge — ranked in the top 3.03% with a peak rating of 1964.",
       image: require("./assets/images/knightBadge.png"),
       imageAlt: "Knight Badge",
       footerLink: [
@@ -650,11 +704,12 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
   greeting,
+  statsSection,
   socialMediaLinks,
   splashScreen,
   skillsSection,

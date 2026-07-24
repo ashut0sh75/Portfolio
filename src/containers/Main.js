@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
+import Stats from "./stats/Stats";
+import TechMarquee from "../components/techMarquee/TechMarquee";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
@@ -18,6 +20,7 @@ import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import AmbientSVG from "../components/ambientSVG/AmbientSVG";
+import InteractivePet from "../components/interactivePet/InteractivePet";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
@@ -55,6 +58,8 @@ const Main = () => {
           <>
             <Header />
             <Greeting />
+            <TechMarquee />
+            <Stats />
             <Skills />
             <StackProgress />
             <Education />
@@ -70,6 +75,7 @@ const Main = () => {
             <Profile />
             <Footer />
             <ScrollToTopButton />
+            <InteractivePet />
           </>
         )}
       </StyleProvider>

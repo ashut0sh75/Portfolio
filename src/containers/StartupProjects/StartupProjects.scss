@@ -50,11 +50,12 @@
 .project-detail {
   text-align: center;
 }
-.project-card-light:hover {
-  box-shadow: yellow 0px 20px 30px -10px;
-}
+.project-card-light:hover,
 .project-card-dark:hover {
-  box-shadow: 0px 20px 30px -10px yellow;
+  transform: translateY(-8px);
+  border-color: rgba(99, 102, 241, 0.55);
+  box-shadow: 0 22px 40px -12px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(99, 102, 241, 0.25);
 }
 .project-image {
   position: relative;

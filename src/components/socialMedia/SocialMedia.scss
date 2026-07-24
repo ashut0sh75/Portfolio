@@ -1,106 +1,125 @@
 @import "../../_globalColor";
 
 .social-media-div {
-  font-size: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
 }
 
 .icon-button {
-  margin-bottom: 10px;
+  margin: 0;
+  line-height: 0;
 }
 
+/* Base: uniform glassy circular buttons */
 .icon-button i {
-  color: $textColorDark;
-  border-radius: 2.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  font-size: 1.15rem;
+  color: #cbd5e1;
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(99, 102, 241, 0.22);
   cursor: pointer;
-  display: inline-block;
-  font-size: 1.3rem;
-  height: 2.6rem;
-  line-height: 2.6rem;
-  margin: 0 5px;
-  position: relative;
-  text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
-  width: 2.6rem;
-  margin-bottom: 10px;
-  transition: 0.2s ease-in;
+  transition: transform 0.25s ease, background-color 0.25s ease,
+    color 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
-.facebook i {
-  background-color: $faceBook;
+/* Inline X (formerly Twitter) logo — matches the circular icon buttons */
+.icon-button .x-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  color: #cbd5e1;
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(99, 102, 241, 0.22);
+  cursor: pointer;
+  transition: transform 0.25s ease, background-color 0.25s ease,
+    color 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
-.linkedin i {
-  background-color: $linkedin;
+.icon-button .x-icon svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  display: block;
 }
 
-.github i {
-  background-color: $github;
+.x-twitter:hover .x-icon {
+  color: #ffffff;
+  background: #000000;
+  transform: translateY(-5px) scale(1.06);
+  border-color: transparent;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.55);
 }
 
-.gitlab i {
-  background-color: $gitlab;
+/* Shared hover: lift + brighten */
+.icon-button:hover i {
+  color: #ffffff;
+  transform: translateY(-5px) scale(1.06);
+  border-color: transparent;
 }
 
-.google i {
-  background-color: $google;
+/* Brand-coloured hovers with matching glow */
+.github:hover i {
+  background: #24292e;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.55);
 }
-
-.twitter i {
-  background-color: $twitter;
+.linkedin:hover i {
+  background: $linkedin;
+  box-shadow: 0 8px 20px rgba(14, 118, 168, 0.5);
 }
-
-.medium i {
-  background-color: $medium;
+.google:hover i {
+  background: $google;
+  box-shadow: 0 8px 20px rgba(234, 67, 53, 0.5);
 }
-
-.stack-overflow i {
-  background-color: $stackoverflow;
+.facebook:hover i {
+  background: $faceBook;
+  box-shadow: 0 8px 20px rgba(59, 89, 152, 0.5);
 }
-
-.kaggle i {
-  background-color: $kaggle;
+.twitter:hover i {
+  background: $twitter;
+  box-shadow: 0 8px 20px rgba(30, 145, 217, 0.5);
 }
-
-.instagram i {
-  background-color: $instagram;
+.instagram:hover i {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #bc1888);
+  box-shadow: 0 8px 20px rgba(193, 53, 132, 0.5);
 }
-
-.discord i {
-  background-color: $discord;
+.stack-overflow:hover i {
+  background: $stackoverflow;
+  box-shadow: 0 8px 20px rgba(244, 128, 36, 0.5);
 }
-
-.telegram i {
-  background-color: $telegram;
+.medium:hover i {
+  background: #000000;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.55);
 }
-
-/* Hover Transition */
-/* Hover Transition */
-.twitter i:hover,
-.google i:hover,
-.gitlab i:hover,
-.github i:hover,
-.linkedin i:hover,
-.facebook i:hover,
-.instagram i:hover,
-.stack-overflow i:hover,
-.kaggle i:hover,
-.medium i:hover,
-.discord i:hover, /* Removed space here */
-.telegram i:hover { /* Removed space here */
-  background-color: black;
-  color: yellow;
-  transform: scale(1.1); /* Add a scale effect */
-  box-shadow: 0 0 10px yellow;
-  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease; 
+.gitlab:hover i {
+  background: $gitlab;
+  box-shadow: 0 8px 20px rgba(252, 163, 38, 0.5);
 }
-
+.discord:hover i {
+  background: $discord;
+  box-shadow: 0 8px 20px rgba(114, 137, 218, 0.5);
+}
+.telegram:hover i {
+  background: $telegram;
+  box-shadow: 0 8px 20px rgba(0, 136, 204, 0.5);
+}
+.kaggle:hover i {
+  background: $kaggle;
+  box-shadow: 0 8px 20px rgba(32, 190, 255, 0.5);
+}
 
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
-    text-align: center;
+    justify-content: center;
   }
 }
