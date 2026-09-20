@@ -38,7 +38,7 @@ const illustration = {
     "Curious by default, pragmatic by habit — always shipping, always learning"
   ],
   resumeLink:
-    "https://drive.google.com/file/d/1CQPHkOYkP9msYFhVpUCBzY9K2De1t3mR/view?usp=sharing",
+    "https://drive.google.com/file/d/1bnx7falNcuPlZuvHP9emm5H3vVSH65Ap/view?usp=sharing",
   displayGreeting: true
 };
 
